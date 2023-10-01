@@ -1,0 +1,154 @@
+#sectionB{
+    width:100%;
+    height: 300px;
+    background-color: rgba(223, 216, 213, 0);
+    display: flex;
+    
+    margin-right: 5%;
+    align-items: center;
+    padding: 1%;
+    margin-top: 5%;
+    
+    
+}
+
+.s2Blocks{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    justify-content: space-between
+}
+
+.s2Blocks:first-child{
+    margin-left: 0;
+}
+
+#img1{
+    margin-left: 0;
+    width: 100%;
+    height:250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("/Lab3/resourseFolder/flowers.jpg");
+}
+#img2{
+    width: 100%;
+    height: 250px;
+    background-position: center center;
+    
+    background-image: url("/Lab3/resourseFolder/starrynight.png");
+}
+#img3{
+    width: 100%;
+    height:250px;
+    background-position: center center;
+    background-image: url("/Lab3/resourseFolder/mindal.jpg");    
+}
+
+
+
+
+.galleryPics{
+    background-size: cover;
+    
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.galleryPics{
+    transform: scale(1);
+    border: 6px solid rgb(255, 255, 255);
+    padding: 0px;
+    
+    
+}
+
+
+   .galleryPics:hover {transition: 1s; /* Время эффекта */
+    transform: scale(1.8); /* Увеличиваем масштаб */
+    
+   
+    
+        border: 1px solid white;
+    
+    
+    z-index: 8;
+   }
+   
+
+   @keyframes noborder {
+        0%{
+            border: 6px solid rgb(255, 255, 255);
+            box-shadow: none;
+        }
+        100%{
+            
+            box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+
+        }
+   }
+
+   @keyframes backcursor {
+    0%{
+        /*border: 0px solid white;*/
+        box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    }
+    100%{
+        /*border: 5px solid rgb(255, 255, 255);*/
+        box-shadow: none;
+        
+
+    }
+   }
+
+.galleryPic:hover #sectionB div img{
+    
+    border: 1px solid black;
+    background-color: rgb(71, 133, 188);
+    
+    vertical-align: middle;
+}
+
+
+p{
+    
+      font-family: 'Merriweather', serif;
+
+}
+
+
+#p1{
+    font-size: 3.6em;
+    margin-bottom: 1%;
+    font-weight: 500;
+    
+}
+#p2{
+    font-size: 1.6em;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+#p3{
+    font-size: 1.1em;
+    padding-bottom: 1%;    
+}
+#p4{
+    font-size: 1.1em;
+    padding-bottom: 1.1%;  
+}
+#p5{
+    font-size: 1.1em;
+}
+p{
+    margin: 0.2%;
+    hyphens: auto;
+}
+p:last-child{
+    margin-bottom: 1%;
+}

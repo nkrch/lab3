@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Vincent;
+    src: url("/Lab3/resourseFolder/P22 VINCENT REGULAR.TTF");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Truetype";
+    src: url("/Lab3/resourseFolder/Truetypewriter/ PolyglOTT.ttf");
+}
+#p1{
+    font-family: Vincent;
+    color: rgb(46, 71, 89);;
+}
+p:nth-child(2){
+    color: rgba(69, 105, 131, 0.999);
+    
+    font-size: 150%;
+    
+}
+#p3{
+    color: rgba(252, 252, 252, 0.814);
+    
+    font-size: 25px;
+    
+}
+#p4{
+    color: rgba(245, 245, 245, 0.633);
+    font-family: Truetype;
+    font-size: 150%;
+    
+}
+#p5{
+    color: #ffffff76;
+    
+    font-size: 150%;
+    
+}
+.s2Blocks p{
+    font-family: Vincent;
+    color: azure;
+    
+}
+
+
+#StarNightH{
+    font-family: Vincent;
+}
+
+@font-face {
+    font-family: Truetypewriter;
+    src: url("/Lab3_questioned/resourceFiles/Truetypewriter PolyglOTT.ttf");
+}
